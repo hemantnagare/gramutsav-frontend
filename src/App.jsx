@@ -12,7 +12,7 @@ import Home from "./pages/Home";
 import Ustav from "./pages/Ustav";
 import VarganiDetails from "./pages/VarganiDetails";
 import PaymentSuccess from "./pages/PaymentSuccess";
-import AllShareholders from "./pages/AllShareholders";
+import AllShareholders from "./pages/AllShareHolders";
 import PaymentReport from "./pages/PaymentReport";
 
 function Navbar() {
