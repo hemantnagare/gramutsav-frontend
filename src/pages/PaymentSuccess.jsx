@@ -111,16 +111,16 @@ useEffect(() => {
                             </div>
 
 <div>
+    <b>PhonePe Order ID :</b>
+    <br />
+    {paymentData.phonePeOrderId}
+</div>
 
-     <div>
-                                <b> PhonePe Order ID :</b>
-                                <br />
-                                {paymentData.phonePeOrderId}
-                            </div>
-                                <b>Payment Date ID :</b>
-                                <br />
-                                {paymentData.paymentDate}
-                            </div>
+<div>
+    <b>Payment Date :</b>
+    <br />
+    {paymentData.paymentDate}
+</div>
 1
                             <div>
                                 <b>Status :</b>

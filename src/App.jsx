@@ -108,10 +108,10 @@ function AppContent() {
                     }
                 />
 
-                <Route
-                    path="/payment-success"
-                    element={<PaymentSuccess />}
-                />
+               <Route
+    path="/payment-success"
+    element={<PaymentSuccess />}
+/>
 
                  <Route
                     path="/payment-report"
