@@ -24,7 +24,7 @@ useEffect(() => {
         if (merchantOrderId) {
 
             axios.get(
-                `http://localhost:8080/api/payment/status/${merchantOrderId}`
+                `https://gramutsav.onrender.com/api/payment/status/${merchantOrderId}`
             )
             .then((response) => {
                 console.log("Payment Status Response:", response.data);

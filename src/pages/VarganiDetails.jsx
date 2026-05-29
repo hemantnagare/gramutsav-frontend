@@ -30,7 +30,7 @@ function VarganiDetails() {
         try {
 
             const res = await axios.get(
-                `http://localhost:8080/api/shareholder/mobile/${mobile}`
+                `https://gramutsav.onrender.com/api/shareholder/mobile/${mobile}`
             );
 
             console.log(res.data);

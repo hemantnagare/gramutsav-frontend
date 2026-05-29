@@ -12,7 +12,7 @@ const PaymentReport = () => {
   const fetchReport = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:8080/api/payment/report"
+        "https://gramutsav.onrender.com/api/payment/report"
       );
 
       setReports(response.data);

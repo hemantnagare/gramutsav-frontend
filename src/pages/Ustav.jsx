@@ -19,7 +19,7 @@ function Ustav() {
         try {
 
             const response = await axios.get(
-                "http://localhost:8080/api/ustav/allUstav"
+                "https://gramutsav.onrender.com/api/ustav/allUstav"
             );
 
             console.log(response.data);
